@@ -1,0 +1,105 @@
+generated: '2026-09-02'
+method: probed
+source: >-
+  Direct HTTPS probes of the named /.well-known/ path list against the Unrivaled Sports
+  corporate host and three of its largest portfolio-brand hosts, 2026-09-02.
+name: Unrivaled Sports well-known documents
+description: >-
+  A recorded absence. Every named /.well-known/ path was probed on the Unrivaled Sports
+  corporate host and on the Ripken Baseball, Cooperstown All Star Village and Unrivaled
+  Baseball brand hosts. Nothing was served. No WellKnown or SecurityTxt pointer is emitted
+  in apis.yml, because none of these probes returned a document.
+hosts:
+- host: unrivaledsports.com
+  note: >-
+    WordPress site behind Cloudflare. Both 404 shapes observed: an nginx "404 Not Found"
+    for paths outside WordPress routing and a WordPress-rendered 404 HTML page for the rest.
+    Neither is a document.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: ripkenbaseball.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: cooperstown.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: unrivaledbaseball.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: baseballfactory.com
+  note: >-
+    Fronted by an edge that answers 403 to non-browser agents on some paths; the
+    /.well-known/* paths returned a 404 body from the origin CMS. Neither is a document.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+summary:
+  hosts_probed: 5
+  paths_probed: 27
+  documents_found: 0
+  security_txt: false
+  api_catalog: false
+  agent_card: false
