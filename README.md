@@ -64,5 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Unrivaled Sports is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/unrivaled-sports-stock
+Unrivaled Sports is a youth sports platform and experience operator founded in March 2024 by Josh Harris and David Blitzer (Harris Blitzer Sports & Entertainment) with a strategic investment from The Chernin Group, later joined by DICK'S Sporting Goods and Under Armour as strategic investors. The company owns and operates a portfolio of youth sports destinations, tournaments and camps across baseball, softball, flag football and action sports — including Ripken Baseball, Cooperstown All Star Village, Baseball Factory, Softball Factory, Diamond Nation, Big League Dreams, Sports Force Parks, ForeverLawn Sports Complex at the Pro Football Hall of Fame Village, Rocker B Ranch, Unrivaled Flag, Under the Lights Flag Football and the We Are Camp action-sports properties (High Cascade, Windells, Snöbahn, Seek Skate Camp, Milepost 35). It reports 15 venues, 2 million annual visitors and 800,000 athletes served. It is a venue and event operator rather than a software company: as of 2026-09-02 it publishes no developer program, no public API, and no machine-readable API contract on any of its own or its portfolio brands' hosts.
+
+**Areas:** Company · Sports · Youth Sports · Baseball · Softball · Flag Football · Event · Tournaments · Venues · Camps · Recreation · Private Equity Backed
+
+## Unrivaled Sports on APIs.io
+
+Everything profiled for Unrivaled Sports is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/unrivaled-sports/](https://apis.io/providers/unrivaled-sports/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Unrivaled Sports Domain Security](https://apis.io/security/unrivaled-sports/unrivaled-sports-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://unrivaledsports.com/)
+- [Privacy policy](https://unrivaledsports.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 6.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/unrivaled-sports/](https://apis.io/providers/unrivaled-sports/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Unrivaled Sports: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/unrivaled-sports/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
